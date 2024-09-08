@@ -32,13 +32,14 @@ SERVICE_ACTION_CHOICES = {
         'install'        :'Install the package',
         'uninstall'      :'Uninstall the package',
         'update'         :'Update the package',
+        'check'          :'Check is the package installed or a newer version is available',
         'run'            :'Run the package',
         'version'        :'Show the version of the package',
     }
 }
 
 SERVICE_FUNCTION = {
-    "commit-msg" : lambda x: print("Still working on it"), #, commit_msg_action_executor,
+    "commit-msg" : commit_msg_action_executor,
     "gen-readme" : gen_readme_action_executor,
 }
 

@@ -9,8 +9,8 @@ from core.base.base_installer import BaseInstaller
 
 
 PACKAGE_SERVICE          = "gen_readme"
-PACKAGE_ZIP_URL          = None
-PACKAGE_VERSION_URL      = None
+PACKAGE_ZIP_URL          = "http://ouyangminwei.com/wp-content/uploads/gen_readme.zip"
+PACKAGE_VERSION_URL      = "http://ouyangminwei.com/wp-content/uploads/version_gen_readme.txt"
 PACKAGE_COMMAND_NAME     = "gen-readme"
 PACKAGE_EXECUTABLE_NAME  = "gen_readme"
 

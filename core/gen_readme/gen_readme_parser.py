@@ -12,5 +12,7 @@ def action_executor(action):
         ins.run()
     elif ( action == "update" ):
         ins.update()
+    elif ( action == "check" ):
+        ins.check()
     elif ( action in ["-v","--version","version"] ):
-        ins.show_version()
+        ins.show_version()  

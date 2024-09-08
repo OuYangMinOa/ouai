@@ -7,8 +7,8 @@ from config.config import TEMP_FOLDER, ROOT_FOLDER
 from core.base.base_installer import BaseInstaller
 
 PACKAGE_SERVICE          = "commit_msg"
-PACKAGE_ZIP_URL          = "https://github.com/OuYangMinOa/AI-analyse-commit-msg/releases/download/v1.0.11/check_commit_msg.zip"
-PACKAGE_VERSION_URL      = "https://github.com/OuYangMinOa/AI-analyse-commit-msg/releases/download/v1.0.11/version.txt"
+PACKAGE_ZIP_URL          = "http://ouyangminwei.com/wp-content/uploads/check_commit_msg.zip"
+PACKAGE_VERSION_URL      = "http://ouyangminwei.com/wp-content/uploads/version.txt"
 PACKAGE_EXECUTABLE_NAME  = "check_commit_msg"
 PACKAGE_COMMAND_NAME     = "commit-msg"
 
