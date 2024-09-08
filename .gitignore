@@ -1,0 +1,6 @@
+**/__pycache__
+.env
+/main.spec
+/build
+/dist
+/check_commit_msg
